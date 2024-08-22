@@ -1,0 +1,169 @@
+/* Reset Básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos Generales */
+body {
+    color: #000000;
+    line-height: 1.6;
+    background-color: #943131;
+}
+
+/* logo */
+.navbar {
+    background-color: #811414;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+ /* Color de Contacto y Inicio */
+.nav-links a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+/* Color de los links de los contacto y inicio cuando clickeas */
+.nav-links a:hover {
+    color: #000000;
+}
+
+/* Color de las letras del centro */
+.hero {
+    background: url('ruta/a/hero-background.jpg') no-repeat center center/cover;
+    color: #fdf8f8;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f8f9fa;
+    color: #ce2711f8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+/* Boton de Ver cursos */
+.cta-button:hover {
+    background-color: #e4c1c1;
+    color: #d63737;
+}
+
+/* sección de cursos*/
+.courses {
+    padding: 40px 20px;
+}
+
+.courses h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+/* Color de los cursos */
+.course-card {
+    background: #e7e7e7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.course-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.course-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+/* Letra de los cursos*/
+.course-card p {
+    color: #000000;
+}
+
+/* Pie de la pagina */
+.footer {
+    background-color: #811414;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+/* Color de los contactos */
+.social-links a {
+    color: #ebebeb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+/* Color de los links de los contactos */
+.social-links a:hover {
+    color: #000000;
+}
+
+.social-links i {
+    margin-right: 10px;
+}
