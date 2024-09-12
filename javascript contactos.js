@@ -12,8 +12,8 @@ botonEnviar.addEventListener("click", () => {
 });
 
 botonReset.addEventListener("click", (event) => {
-    event.preventDefault(); 
-    location.reload(); 
+    event.preventDefault(); // Prevenir el comportamiento por defecto si el botón está en un formulario
+    location.reload(); // Recargar la página
 });
 
 // Conjunto de caracteres no permitidos
@@ -22,10 +22,10 @@ const caracteresNoPermitidos = new Set(['@', '#', '$', '%']);
 Array.from(filasFormulario).forEach(elemento => {
     elemento.addEventListener("keydown", (evento) => {
         if (caracteresNoPermitidos.has(evento.key)) {
-            evento.preventDefault(); // 
+            evento.preventDefault(); // Evita que el carácter sea ingresado
             textoGracias.innerText = "Los caracteres @, #, $ y % no se encuentran permitidos, por favor, borralos";
         } else {
-            textoGracias.innerText = ""; 
+            textoGracias.innerText = ""; // Limpia el mensaje de error si el carácter es permitido
         }
     });
 });
