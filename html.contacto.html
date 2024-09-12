@@ -4,25 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <title> Contactanos!</title>
-        <!-- CSS Nuestro -->
-        <link rel="stylesheet" href="Contacto.css">
+        <!-- CSS  -->
+        <link rel="stylesheet" href="CSS.Contacto.css">
     </head>
     <body>
     
         <header> 
              <!-- MENU -->
              <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a href="index.html"> </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </nav>
         </header> 
         
@@ -42,30 +31,14 @@
                         <label for="pregunta">Pregunta:</label>
                         <textarea name="pregunta"></textarea>
 
-                        <div class="marcar-opcion">
-                            <div class="alinear-centro">
-                                <input type="radio" name="grupo-cursada" value="1">
-                                <label for="grupo1">Grupo "Ada Lovelace" - 17 a 19 hs</label>
-                            </div>
-                            <div class="alinear-centro">
-                                <input type="radio" name="grupo-cursada" value="2">
-                                <label for="grupo2">Grupo "Grace Hopper" - 19 a 21 hs</label>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="filas-formulario">
                         <label for="fecha">Fecha:</label>
                         <input type="date" name="fecha" id="fecha">
-                        <div class="alinear-centro">
-                            <input type="checkbox" name="conocia-cet" value="Si">
-                            <label for="conocia-cet"> Conocía CET antes de este curso </label>
-                        </div>
                         <p id="texto-fecha"></p>
                     </div>
 
                     <div class="alinear-centro">
-                        <input type="button" id="boton-enviar" value="Enviar"> <!-- Tip: si no queremos que se refresque la pagina al enviar, podemos poner type=button -->
+                        <input type="button" id="boton-enviar" value="Enviar"> 
                         <input type="reset" id="boton-reset" value="Reset">
                     </div>
                 </form>
@@ -74,9 +47,9 @@
         </main>
         
         <footer>
-            <h5> <3 Este es un proyecto de Lovalace Courses <3 </h5>
+            <h5> Este es un proyecto de Lovalace Courses </h5>
         </footer>
-        <!-- Nuestro Script -->
-        <script src=""> </script>
+        <!-- Script -->
+        <script src="javascript contactos.js"> </script>
     </body>
 </html>
